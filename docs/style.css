@@ -22,15 +22,27 @@
 
 .book .book-summary {
   background:  #1f3b65;
+  width: 350px;
+  position:absolute;
+  top:0;
+  left:-350px;
   border-right: none;
+}
+
+.book.with-summary .book-header.fixed {
+  left: 350px;
+}
+
+.book.with-summary .book-body {
+  left: 350px;
 }
 
 .book .book-summary ul.summary li a, 
 .book .book-summary ul.summary li span {
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #ffffff;
 }
 
@@ -46,3 +58,37 @@
   border-color: #b9e8ff;
   padding-left: 11px !important;
 }  
+
+/* -----------Sidebar div tips------------- */
+/* from r-pkgs.org*/
+/*
+
+div.puzzle, div.fyi, div.demo, div.note {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  color: #1f5386;
+  background-color: #bed3ec;
+  border: solid 5px #dfedff;
+}
+
+div.puzzle {
+background-image: url("../images/Your-turn.png");
+}
+
+div.fyi {
+background-image: url("../images/fyi.png");
+}
+
+div.demo {
+background-image: url("../images/Live-code.png");
+}
+
+div.note {
+background-image: url("../images/lightbulb.png");
+}
+*/
