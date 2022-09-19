@@ -31,7 +31,7 @@
   padding-bottom: 8px;
   padding-left: 15px;
   padding-right: 15px;
-  color: #f2f7ff;
+  color: #ffffff;
 }
 
 /* color when hovering */
@@ -41,7 +41,7 @@
 
 /* color for active links */
 .book .book-summary ul.summary li.active>a { /*active TOC links*/
-  color: #c9e1ff !important;
+  color: #d2c9ff !important;
   border-left: solid 5px;
   border-color: #b9e8ff;
   padding-left: 11px !important;
