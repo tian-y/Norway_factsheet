@@ -1,8 +1,8 @@
 --- 
-title: "PRESS Methodology note"
+title: "CH Methodology note"
 author: "Johannes Abele"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Preface {-}
+# Abstract {-}
