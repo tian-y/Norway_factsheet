@@ -1,9 +1,16 @@
 --- 
-title: "CH Methodology note"
-author: "Johannes Abele"
+title: "Clearinghouse Methodology Note"
+description: "Clearinghouse Methodology Note"
+author: 
+  - Julia Schmidt, [PARIS21](https://www.paris21.org)
+  - Yu Tian, [PARIS21](https://paris21.org/about-paris21/our-team/yu-tian)
+  - Junya Ino, [PARIS21](https://paris21.org)
+  - Guglielmo Zappalà, [PARIS21](https://paris21.org)
+  - Lorenz Noe, [Open Data Watch](https://opendatawatch.com/about/)
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 cover-image: CH_cover_image.png
+favicon: "CH_logo.ico"
 ---
 
 # Abstract {-}
