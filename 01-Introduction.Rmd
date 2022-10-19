@@ -15,5 +15,5 @@ sourcing process from the Bern Network (see [Data Sourcing Strategic Note | Apri
 
 This technical note gives an overview over the implementation of the data sourcing process. It is 
 directed at development data experts interested in the collection and processing of financing data 
-on development data. Chapter 2 introduces the most important terminology on financing. Chapter 
-3 illustrates the data collection and processing of the various data flows.
+on development data. Chapter \@ref(financing-dev-data) introduces the most important terminology on financing. Chapter 
+\@ref(about-the-data) illustrates the data collection and processing of the various data flows.

@@ -1,4 +1,4 @@
-# ABOUT THE DATA 
+# ABOUT THE DATA {#about-the-data}
 
 The Clearinghouse for Financing Development Data is a hub of data originating from a variety of
 different sources. The below table gives an overview over the data according to the topics relevant
@@ -47,7 +47,7 @@ many multilateral organisations have improved the granularity of their reporting
 making these data equally useful as data collected from the PRESS survey. To reduce the burden
 on donors, these multilateral organisations are no longer required to fill in the PRESS survey
 
-#### Limitations of the data
+#### Limitations of the data {#limitations-data}
 
 As the PRESS data depend in large part on the CRS database, it will share limitations of the CRS
 database itself. CRS data is usually reported, processed and presented in high quality. Nevertheless,
@@ -227,7 +227,7 @@ Data for Development Profiles.
 
 #### Limitations of the data
 
-The profiles mainly rely on CRS data (for general limitation, please see Section 3.1.1.1.). For further
+The profiles mainly rely on CRS data (for general limitation, please see Section \@ref(limitations-data)). For further
 details on the methodology, please access the Methdology Section of the [OECD (2021) Data for
 Development Profiles](https://www.oecd.org/dac/data-for-development-profiles-84baa8f3-en.htm#:~:text=The%20first%202021%20edition%20of,in%20low%20and%20middle%20income).
 
@@ -512,7 +512,7 @@ marker, as well as results from the PRESS survey.
 #### Limitations of the data
 
 The limitations of the gender data-relevant projects identified in PRESS are those shared by all
-projects in PRESS, see section 3.1.1. In addition, the gender identification depends heavily on
+projects in PRESS, see Section \@ref(limitations-data). In addition, the gender identification depends heavily on
 correct description and manual identification of projects by donors. The project descriptions that
 are used to match projects must contain relevant information to be identified, donors must apply
 the DAC gender marker to projects in accordance with best practices, and donors must respond to

@@ -1,4 +1,4 @@
-# ABOUT FINANCING FOR DEVELOPMENT DATA
+# ABOUT FINANCING FOR DEVELOPMENT DATA {#financing-dev-data}
 
 Data are crucial for development because they are at the core of the type of evidence-based policy-
 making that improves people’s lives and are at the heart of the 2030 Agenda. National statistical
@@ -28,11 +28,11 @@ mobilisation of institutional investors ([OECD, 2021](https://www.oecd.org/dac/f
 
 In the Clearinghouse Platform, we aim to give a holistic picture of financing specifically targeted
 at statistics and data in IDA countries. This includes the financial support from development
-providers (see 2.1.), the financing opportunities in statistical systems (see 2.2.), the overall statistical
-performance in recipient countries (see 2.3.) and the specific sectoral support to gender data and
-statistics (see 2.4.).
+providers (see \@ref(financial-support-statistics-data)), the financing opportunities in statistical systems (see \@ref(funding-opp-stat-system)), the overall statistical
+performance in recipient countries (see \@ref(stat-performance)) and the specific sectoral support to gender data and
+statistics (see \@ref(gender-financing)).
 
-## Financial Support to Statistics and Data
+## Financial Support to Statistics and Data {#financial-support-statistics-data}
 
 Financial support to data and statistics refers to any type of support international development
 cooperation actors target at specific projects on data and statistics in low-and middle income
@@ -120,7 +120,7 @@ Sometimes, it may take up to several years to disburse a commitment.
 
 
 
-## Funding Opportunities in Statistical Systems
+## Funding Opportunities in Statistical Systems {#funding-opp-stat-system}
 
 The analysis of financing opportunities in statistical systems is the most challenging and novel data
 element the Clearinghouse presents. We refer here to data on the budgets of statistical offices and
@@ -173,7 +173,7 @@ support targeted at policy sectors in the next three years).
 The results from these assessments are visible in the recipient profiles, but also on our dedicated
 gender channel.
 
-## Statistical Performance
+## Statistical Performance {#stat-performance}
 
 Benchmarks of statistical performance, such as the Statistical Performance Indicators published
 by the World Bank or the Statistical Capacity Monitor by PARIS21 are a major starting point for
@@ -183,7 +183,7 @@ In the Clearinghouse, we report key indicators that benchmark statistical perfor
 along the data value chain (including aspects of data planning, production, dissemination and use)
 to provider further guidance to donors
 
-## Gender Data Financing   
+## Gender Data Financing {#gender-financing}
 
 Gender data is defined by the [UN Statistics Division](https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/files/Handbooks/gender/Integrating-a-Gender-Perspective-into-Statistics-E.pdf) as data that are collected and presented by
 sex as a primary and overall classification, data that reflect gender issues, data that are based on
@@ -204,7 +204,7 @@ have been underfunded by $450 million per year since 2015 and in order to fully 
 systems by 2030, roughly $1 billion is required from donors and countries.
 
 In the Clearinghouse, we describe gender data financing flows to IDA countries from external sources
-as captured by ODA commitments, described in section 2.1, gender data financing opportunities in
+as captured by ODA commitments, described in section \@ref(financial-support-statistics-data), gender data financing opportunities in
 these countries as captured by domestic statistical capacity planning documents, as well as gender-
 relevant statistical instrument production and performance on statistical capacity indicators. Using
 these three blocks of information, we ensure that domestic and external providers of gender data

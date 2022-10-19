@@ -1,7 +1,7 @@
 /*--- LOGO ---*/
 
 .toc-logo {
-  width: 200px !important;
+  width: 310px !important;
   object-fit: contain;
   margin: 0 auto;
   display: block;
@@ -21,7 +21,7 @@
 /*--- Sidebar ---*/
 
 .book .book-summary {
-  background:  #1f3b65;
+  background:  #f8f8fa;
   width: 350px;
   position:absolute;
   top:0;
@@ -43,19 +43,19 @@
   padding-bottom: 8px;
   padding-left: 20px;
   padding-right: 20px;
-  color: #ffffff;
+  color: #072f4e;
 }
 
 /* color when hovering */
 .summary a:hover {  
-  color: hsl(207, 16%, 71%) !important;
+  color: #528399 !important;
 } 
 
 /* color for active links */
 .book .book-summary ul.summary li.active>a { /*active TOC links*/
-  color: #d2c9ff !important;
+  color: #81a5b8 !important;
   border-left: solid 5px;
-  border-color: #b9e8ff;
+  border-color: #c6c5a9;
   padding-left: 11px !important;
 }  
 

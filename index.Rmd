@@ -10,7 +10,7 @@ author:
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 cover-image: CH_cover_image.png
-favicon: "CH_logo.ico"
+favicon: "CH_circle.ico"
 ---
 
 # Abstract {-}
