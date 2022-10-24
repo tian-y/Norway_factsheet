@@ -230,7 +230,9 @@ information as the CRS data and are usually updated more frequently than CRS. Ho
 majority of donors still lack appropriate portals and public datasets. Furthermore, merging these
 different datasets is possible, but time intensive. The Clearinghouse integrates data from both of
 these sources.</p>
-<p><strong>Nowcasting funding to data and statistics.</strong> Given that CRS has a lag of 12 months for reporting
+<p><a id="nowcasting" style="text-decoration:none; color:black"></a>
+<strong>Nowcasting funding to data and statistics.</strong>
+Given that CRS has a lag of 12 months for reporting
 both disbursements and commitments, the project team can estimate support to statistics by
 looking at the relationship between the two variables. Using these two variables, PARIS21 has
 developed a simple linear regression model to to predict current disbursements based on reported
@@ -263,7 +265,9 @@ interpreted with significant caution even if the above model indicates a relativ
 coming years. According to historical estimates, the funding gap for data and statistics is far from
 being closed. This gap is likely to be exacerbated by the effects of the ongoing COVID-19 crisis in
 large parts of the globe.</p>
-<p><strong>Classifying data according to Sustainable Development Goals.</strong> Each project in the Clearinghouse
+<p><a id="SDG" style="text-decoration:none; color:black"></a>
+<strong>Classifying data according to Sustainable Development Goals.</strong>
+Each project in the Clearinghouse
 is tagged with up to three of the seventeen Sustainable Development Goals. The CRS database
 allows reporters to assign SDG markers to each activity reported in recent years. For projects that
 are not tagged with SDGs and projects from other sources, the project team has implemented a
@@ -277,7 +281,8 @@ reporter.</p>
 of the seventeen SDGs. The project will be assigned for an SDG if the probability of this SDG is top
 3 among all other SDGs and the value of the probability is over 0.5. The source code is hosted on
 Github and can be shared upon request.</p>
-<p><strong>Classifying data according to statistical activities.</strong> Both donors and recipients may be interested
+<p><a id="CSA" style="text-decoration:none; color:black"></a>
+<strong>Classifying data according to statistical activities.</strong> Both donors and recipients may be interested
 in analysing the distribution of projects by statistical activities. For this reason, the project team
 implemented a machine learning algorithm to classify PRESS projects into the five domains of the
 Classification of Statistical Activities (CSA). The algorithm is similar to the SDG algorithm and aims
@@ -291,7 +296,8 @@ standards have changed after that year. The algorithm predicts the probability f
 is related to each of the five statistical domains and a project is defined to belong to a statistical
 domain if the predicted probability is strictly above 0.5. The source code is hosted on Github and
 can be shared upon request.</p>
-<p><strong>Classifying data according to functions of government.</strong> The projects are also classified based
+<p><a id="COFOG" style="text-decoration:none; color:black"></a>
+<strong>Classifying data according to functions of government.</strong> The projects are also classified based
 on <a href="https://www.oecd.org/gov/48250728.pdf">government functions (COFOG)</a>.</p>
 <p>In a first step, the project team has mapped the 38 sector codes to the ten first-level functions
 of the government through a one-to-one correspondence. No sector code has been mapped to

@@ -99,7 +99,9 @@ majority of donors still lack appropriate portals and public datasets. Furthermo
 different datasets is possible, but time intensive. The Clearinghouse integrates data from both of
 these sources.
 
-**Nowcasting funding to data and statistics.** Given that CRS has a lag of 12 months for reporting
+<a id="nowcasting" style="text-decoration:none; color:black"></a> 
+**Nowcasting funding to data and statistics.** 
+Given that CRS has a lag of 12 months for reporting
 both disbursements and commitments, the project team can estimate support to statistics by
 looking at the relationship between the two variables. Using these two variables, PARIS21 has
 developed a simple linear regression model to to predict current disbursements based on reported
@@ -138,7 +140,9 @@ coming years. According to historical estimates, the funding gap for data and st
 being closed. This gap is likely to be exacerbated by the effects of the ongoing COVID-19 crisis in
 large parts of the globe.
 
-**Classifying data according to Sustainable Development Goals.** Each project in the Clearinghouse
+<a id="SDG" style="text-decoration:none; color:black"></a> 
+**Classifying data according to Sustainable Development Goals.** 
+Each project in the Clearinghouse
 is tagged with up to three of the seventeen Sustainable Development Goals. The CRS database
 allows reporters to assign SDG markers to each activity reported in recent years. For projects that
 are not tagged with SDGs and projects from other sources, the project team has implemented a
@@ -154,6 +158,7 @@ of the seventeen SDGs. The project will be assigned for an SDG if the probabilit
 3 among all other SDGs and the value of the probability is over 0.5. The source code is hosted on
 Github and can be shared upon request.
 
+<a id="CSA" style="text-decoration:none; color:black"></a> 
 **Classifying data according to statistical activities.** Both donors and recipients may be interested
 in analysing the distribution of projects by statistical activities. For this reason, the project team
 implemented a machine learning algorithm to classify PRESS projects into the five domains of the
@@ -170,6 +175,7 @@ is related to each of the five statistical domains and a project is defined to b
 domain if the predicted probability is strictly above 0.5. The source code is hosted on Github and
 can be shared upon request.
 
+<a id="COFOG" style="text-decoration:none; color:black"></a> 
 **Classifying data according to functions of government.** The projects are also classified based
 on [government functions (COFOG)](https://www.oecd.org/gov/48250728.pdf).
 
