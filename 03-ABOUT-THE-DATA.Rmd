@@ -320,8 +320,8 @@ The source code is hosted on Github and can be shared upon request.
 ### PARIS21 - Pilot assessments
 
 The project team launched four in-depth assessments in July and August 2021 to explore the
-financing opprtunities in partner countries. The countries selected to pilot the assessment included
-Malawi, Rwanda, Gambia and Niger.4
+financing opportunities in partner countries. The countries selected to pilot the assessment included
+Malawi, Rwanda, Gambia and Niger.^[The countries were chosen based on the following criteria: i) IDA eligible, ii) data availability based on CRESS and NSDS reports.]
 
 The objective of the pilot assessments were:
 

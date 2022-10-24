@@ -9,9 +9,10 @@ author:
   - Lorenz Noe, [Open Data Watch](https://opendatawatch.com/about/)
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-cover-image: CH_cover_image.png
+cover-image: CH_front_cover.png
 favicon: "CH_circle.ico"
 ---
+
 
 # Abstract {-}
 
@@ -25,3 +26,9 @@ This document explains the different data featured in the platform as of 1st Oct
 details the collection, processing and analysis methodologies followed. It has been prepared by 
 the Clearinghouse project team, comprised of PARIS21 and Open Data Watch, on behalf of the 
 Secretariat of the Bern Network on Financing Data for Development.
+
+<br />
+
+```{r front-cover, echo=FALSE, fig.align="center", out.width="60%" }
+knitr::include_graphics("./images/CH_front_cover.png")
+```
