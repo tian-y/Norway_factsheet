@@ -1,6 +1,6 @@
 --- 
-title: "Clearinghouse Methodology Note version 2.0"
-date: "1 November 2022"
+title: "Clearinghouse Methodology Note"
+date: "Version 2.0 (1 November 2022)"
 description: Clearinghouse Methodology Note
 site: bookdown::bookdown_site
 cover-image: CH_front_cover.png

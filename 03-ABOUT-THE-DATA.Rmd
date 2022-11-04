@@ -1,4 +1,4 @@
-# ABOUT THE DATA {#about-the-data}
+# About the Data {#about-the-data}
 
 The Clearinghouse for Financing Development Data is a hub of data originating from a variety of
 different sources. The below table gives an overview over the data according to the topics relevant
@@ -615,3 +615,13 @@ For tallying gender data financing from IDA countries, researchers consulted NSD
 statistics plans where available. The researchers consulted the [PARIS21 NSDS Status Report](https://paris21.org/nsds-status) and
 responses from the Cape Town Global Action Plan Survey, in addition to manual research on NSO
 websites.
+
+## Using the data
+Download the Excel data set on the Clearinghouse website or the RDS data [here](docs/Clearinghouse_fulldata.rds).
+
+```{r, eval = FALSE}
+
+df_crs <- readRDS("folder_name/Clearinghouse_fulldata.rds")
+
+```
+<br />

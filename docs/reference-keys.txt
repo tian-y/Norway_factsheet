@@ -51,3 +51,5 @@ limitations-of-the-data-9
 what-did-we-do-to-the-data-to-make-it-usable-for-the-clearinghouse-10
 whats-new-in-this-version
 acknowledgement
+about-this-note
+using-the-data
