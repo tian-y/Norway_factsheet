@@ -1,10 +1,5 @@
 --- 
 title: "Clearinghouse Methodology Note version 2.0"
-author:
-- Yu Tian, [PARIS21](https://paris21.org/about-paris21/our-team/yu-tian)
-- Lorenz Noe, [Open Data Watch](https://opendatawatch.com/about/)
-- Johannes Abele, PARIS21
-- Fatoumata Ngom, OECD
 date: "1 November 2022"
 description: Clearinghouse Methodology Note
 site: bookdown::bookdown_site
@@ -31,12 +26,3 @@ Secretariat of the Bern Network on Financing Data for Development.
 ```{r front-cover, echo=FALSE, fig.align="center", out.width="60%" }
 knitr::include_graphics("./images/CH_front_cover.png")
 ```
-
-
-# What's new in this version? {-}
-
-This version includes a new methodology to identify gender data from aid databases.
-
-# Acknowledgement {-}
-
-This methodology note would note be possible without contribution from
