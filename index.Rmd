@@ -1,16 +1,10 @@
 --- 
-title: "Clearinghouse Methodology Note"
-description: "Clearinghouse Methodology Note"
-author: 
-  - Julia Schmidt, [PARIS21](https://www.paris21.org)
-  - Yu Tian, [PARIS21](https://paris21.org/about-paris21/our-team/yu-tian)
-  - Junya Ino, [PARIS21](https://paris21.org)
-  - Guglielmo Zappalà, [PARIS21](https://paris21.org)
-  - Lorenz Noe, [Open Data Watch](https://opendatawatch.com/about/)
-date: "`r Sys.Date()`"
+title: "Clearinghouse Methodology Note version 2.0"
+date: "1 November 2022"
+description: Clearinghouse Methodology Note
 site: bookdown::bookdown_site
 cover-image: CH_front_cover.png
-favicon: "CH_circle.ico"
+favicon: CH_circle.ico
 ---
 
 
@@ -22,7 +16,7 @@ case for data and statistics. To reach this goal, the platform prioritises user-
 and accessible information about aid flows, partners, projects and results, which build on timely, 
 accurate and in-depth data.
 
-This document explains the different data featured in the platform as of 1st October 2021, and 
+This document explains the different data featured in the platform as of 1st November 2022, and 
 details the collection, processing and analysis methodologies followed. It has been prepared by 
 the Clearinghouse project team, comprised of PARIS21 and Open Data Watch, on behalf of the 
 Secretariat of the Bern Network on Financing Data for Development.
