@@ -1,4 +1,4 @@
-# ABOUT THE DATA {#about-the-data}
+# About the Data {#about-the-data}
 
 The Clearinghouse for Financing Development Data is a hub of data originating from a variety of
 different sources. The below table gives an overview over the data according to the topics relevant

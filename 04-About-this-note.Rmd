@@ -1,7 +1,9 @@
-# What's new in this version?
+# About this note
+
+## What's new in this version?
 
 This version includes a new methodology to identify gender data from aid databases developed by PARIS21, Open Data Watch and the OECD. The note also includes new code blocks to use together with open-source methodology used in the platform. 
 
-# Acknowledgement
+## Acknowledgement
 
 This version was updated by Yu Tian and Johannes Abele, building on the [previous version](docs/Clearinghouse_Μethodology_Note_v1.pdf) of the methodological note by Julia Schmidt, Junya Ino, Yu Tian and Lorenz Noe. 

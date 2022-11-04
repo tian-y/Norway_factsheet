@@ -1,4 +1,4 @@
-# ABOUT FINANCING FOR DEVELOPMENT DATA {#financing-dev-data}
+# About Financing for Development Data {#financing-dev-data}
 
 Data are crucial for development because they are at the core of the type of evidence-based policy-
 making that improves people’s lives and are at the heart of the 2030 Agenda. National statistical
