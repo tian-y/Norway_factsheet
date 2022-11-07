@@ -514,7 +514,9 @@ on gender data for countries and regions.
 Based on the projects identified as relevant to financing statistical activities to construct the PRESS
 database, the same projects were re-examined for relevance specifically to gender data financing
 using a machine learning algorithm based on project descriptions, together with the DAC gender
-marker, as well as results from the PRESS survey.
+marker, as well as results from the PRESS survey. The 2022 edition of the clearinghouse database benefitted from a harmonized approach
+to identifying gender-related statistical activities based on collaboration between PARIS21, OECD D4D, and Open Data Watch (ODW). A more detailed
+description of the approach behind the harmonized filtering methodology can be found here. (Link to come).
 
 #### Limitations of the data
 
@@ -529,44 +531,28 @@ difficult to arrive at a truly independent estimate of gender data financing.
 #### What did we do to the data to make it usable for the Clearinghouse?
 
 This information is contained within a new marker for projects within PRESS, which marks projects
-with 0 if these projects have been scanned for gender data relevance, 1 if these projects are gender
-data-relevant but that is not their ultimate goal, and 2 if these projects would not have happened
-if their ultimate goal was not improved gender data systems. To tally the amount of financing for
-gender data, all projects marked as either 1 or 2 were included.
+with FALSE if these projects have been scanned for gender data relevance but are not gender-relevant and TRUE if these projects are gender
+data-relevant. To tally the amount of financing for gender data, all projects marked as TRUE were included.
 
-### Gender-relevant survey inventory
+### Gender-relevant SDG indicator availability
 
-In order to evaluate the existing capacity of a country and region to conduct statistical instruments
-that would help generate gender data, the project team constructed an inventory of gender data-
-relevant instruments to chart the production of statistical instruments between 2010 and 2020.
-The construction of the gender data-relevant survey inventory for the gender channel involved
-automatic querying of databases from MICS, UNICEF, World Bank, ILO, FAO, and UNSD maintained
-by the custodian agencies of survey and census instruments.
+In order to evaluate the existing capacity of a country and region to produce gender data, the project team
+is presenting a new data series by UN Women's Women Count programme, which presents the availability of data
+across 82 gender-relevant SDG indicators. The final number is a percentage of the gender-relevant indicators that 
+have data as part the June 2022 release of the SDG Global Database. For more information about the authors of this 
+database and methodology, please see this [blog piece](https://data.unwomen.org/features/it-will-take-22-years-close-sdg-gender-data-gaps).
 
 #### Limitations of the data
 
-Metadata about survey and census instruments is available through APIs or direct links, yet the
-information available through each microdata catalog is not necessarily standardized. The main
-limitation is duplication across survey databases; among the thousands of entries, surveys like
-demographic health surveys (DHS) tend to be duplicated across DHS, IHSN, and World Bank
-microdata catalogs. The metadata available was used to filter surveys as much as possible, but
-different tags for surveys may mean duplicates slip through.
+All data sourced from the SDG Global Database reflects a country's capacity to report data to international organizations. 
+This capacity will vary across countries. In addition, the number of gender-relevant indicators is a moving target, as more indicators
+receive methodological improvements, allowing for more indicators to be considered gender-relevant.
 
 #### What did we do to the data to make it usable for the Clearinghouse?
 
-For household health surveys, the API endpoints for both [DHS](https://api.dhsprogram.com/rest/dhs/surveys?surveystatus=all) and [MICS](https://mics.unicef.org/api/survey) were used. For household
-income and expenditure surveys, the API endpoint for the [World Bank microdata catalog](https://microdata.worldbank.org/index.php/api/catalog/search?ps=10000) was
-used. For labor force surveys, the [direct link to the CSV](https://microdata.worldbank.org/index.php/api/catalog/search?ps=10000) maintained by ILOSTAT was used and
-supplemented by data on latest survey and frequency of surveys by Kieran Healy and Yves Perardel
-from ILO. For agricultural surveys, the API endpoint for the [FAO microdata catalog](https://microdata.fao.org/index.php/api/catalog/search?ps=10000) was used and
-supplemented by manually obtained information on AGRISurvey instances and LSMS+ Ag modules.
-In addition, information on agricultural censuses was obtained from tables constructed from the
-[FAO World Programme for the Census of Agriculture](http://www.fao.org/world-census-agriculture/wcarounds/results/en/). Supplementary survey information was
-obtained from International Household Survey Network (IHSN) through their [microdata catalog](https://catalog.ihsn.org/index.php/api/catalog/search?ps=10000&from=2000&to=2021)
-API endpoint. Population and Housing Census information was obtained from the [UNSD Census
-Dates website](https://unstats.un.org/unsd/demographic-social/census/censusdates/). Time use survey dates were obtained manually from [UNSD Time-Use Statistics
-website](https://unstats.un.org/unsd/gender/timeuse/). All data and code to import and harmonize these sources and construct this inventory
-can be found on [Github](https://github.com/lnoe10/instrument_inventory).
+Thanks to UN Women's publication of the database as part of their [blog piece](https://data.unwomen.org/features/it-will-take-22-years-close-sdg-gender-data-gaps),
+the clearinghouse project team was able to download and incorporate the data into the clearinghouse. Consistent with UN Women's methodology to create
+a global average, all regional averages represent simple averages of country data availability.
 
 ### Gender data-relevant indices
 
@@ -588,8 +574,8 @@ The gender data-relevant indices were collected by Open Data Watch during summer
 SPI was fetched automatically via an API. The ODIN-Open Gender Data Index, which was derived
 for the [2020/21 ODIN report](https://odin.opendatawatch.com/Report/annualReport2020#sec3-6), with a reference year of 2020, was obtained from an Open Data
 Watch internal database. This dataset will be published publicly shortly. The Women, Business
-and the Law 2021 index was downloaded from the Women, Business and the Law Data for 1971-
-2021 dataset, available on the [project website](https://wbl.worldbank.org/en/wbl-data). The Social Institutions & Gender Index (SIGI) was
+and the Law 2022 index was downloaded from the Women, Business and the Law Data for 1971-
+2022 dataset, available on the [project website](https://wbl.worldbank.org/en/wbl-data). The Social Institutions & Gender Index (SIGI) was
 downloaded from the [Gender, Institutions and Development database](https://stats.oecd.org/Index.aspx?DataSetCode=GIDDB2019). To construct an index
 comparable to the SPI, WBL, and OGDI, each SIGI value was transformed to rank equivalence, so
 that the best value would have the rank of the number of countries available for the year. This was
