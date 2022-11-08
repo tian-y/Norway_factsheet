@@ -515,7 +515,7 @@ Based on the projects identified as relevant to financing statistical activities
 database, the same projects were re-examined for relevance specifically to gender data financing
 using a machine learning algorithm based on project descriptions, together with the DAC gender
 marker, as well as results from the PRESS survey. The 2022 edition of the clearinghouse database benefitted from a harmonized approach
-to identifying gender-related statistical activities based on collaboration between PARIS21, OECD D4D, and Open Data Watch (ODW). A more detailed
+to identifying gender-related statistical activities based on collaboration between PARIS21, OECD DCD, and Open Data Watch (ODW). A more detailed
 description of the approach behind the harmonized filtering methodology can be found here. (Link to come).
 
 #### Limitations of the data
@@ -558,7 +558,7 @@ a global average, all regional averages represent simple averages of country dat
 
 The Clearinghouse describes the statistical performance of countries through the use of indicators
 such as the World Bank’s Statistical Performance Indicators (SPI), Social Institutions & Gender Index
-(SIGI) and the Women, Business and the Law 2021 Index. The gender data channel supplements
+(SIGI) and the Women, Business and the Law 2022 Index. The gender data channel supplements
 this indicator with additional gender data-relevant indicators in order to provide additional context
 to the production of gender data as well as the state of gender equality in the country or region.
 
