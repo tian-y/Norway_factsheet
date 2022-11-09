@@ -516,7 +516,8 @@ database, the same projects were re-examined for relevance specifically to gende
 using a machine learning algorithm based on project descriptions, together with the DAC gender
 marker, as well as results from the PRESS survey. The 2022 edition of the clearinghouse database benefitted from a harmonized approach
 to identifying gender-related statistical activities based on collaboration between PARIS21, OECD DCD, and Open Data Watch (ODW). A more detailed
-description of the approach behind the harmonized filtering methodology can be found here. (Link to come).
+description of the approach behind the harmonized filtering methodology can be found [here](https://paris21-data.github.io/PRESS_methodology_note/). 
+
 
 #### Limitations of the data
 
