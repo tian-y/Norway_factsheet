@@ -11,10 +11,22 @@ a survey and pilot assessments.
 
 The following chapter then sets out to explain the data, its limitations and processing treatment.
 
-```{r data-sources, echo=FALSE, fig.align="center", fig.cap = "Different data streams and their sources.", out.width="90%" }
-knitr::include_graphics("./images/table_data _sources.png")
-```
+<!-- This is a markdown table, unwrap text will make the code more readable -->
+|     Topic                                               |     Clearinghouse Section                  |     Data                                                |     Source                                      |   |
+|---------------------------------------------------------|--------------------------------------------|---------------------------------------------------------|-------------------------------------------------|---|
+|     Financial support to statistics   and data          |     Funding flows, Provider profiles       |     PRESS   data                                        |     PARIS21, OECD, IATI                         |   |
+|                                                         |     Funding flows, Provider profiles       |     Creditor   Reporting System                         |     OECD                                        |   |
+|     Financing opportunities in   statistical systems    |     Recipient profiles, Gender channel     |     Cape   Town Global Action Plan Monitoring Survey    |     UNSD, World Bank, PARIS21                   |   |
+|                                                         |     Recipient profiles                     |     Pilot   assessments                                 |     PARIS21                                     |   |
+|     Statistical Performance                             |     Recipient Profiles, Gender Channel     |     Statistical   Performance Index                     |     World Bank                                  |   |
+|                                                         |     Recipient Profiles                     |     Statistical   Capacity Monitor                      |     PARIS21                                     |   |
+|                                                         |     Recipient profiles,  Gender channel    |     Open   Data Inventory                               |     Open Data Watch                             |   |
+|     Gender financing                                    |     Gender channel                         |     PRESS   gender data financing projects              |     PARIS21                                     |   |
+|                                                         |     Gender channel                         |     Gender-relevant   indices                           |     Open Data Watch, World Bank, OECD           |   |
+|                                                         |     Gender channel                         |     Gender-relevant   SDG indicator availability        |     UN Women                                    |   |
+|                                                         |     Gender channel                         |     Domestic   financing for gender data                |     PARIS21 NSDS Summary Table; NSO websites    |   |
 
+: Table 3.1: Different data streams and their sources
 
 ## Financial Support to Statistics and Data
 
