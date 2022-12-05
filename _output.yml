@@ -12,7 +12,7 @@ bookdown::gitbook:
       before: |
         <li class="toc-logo"><a href="./"><img src="CH_logo_webite_extracted.png"></a></li>
       after: |
-        <li><a href="https\://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li><a href="https\://smartdatafinance.org" target="blank">Created by the Clearinghouse</a></li>
     edit: https://github.com/PARIS21-DATA/CH_methodology_note/edit/master/%s
     info: no
     fontsettings:
