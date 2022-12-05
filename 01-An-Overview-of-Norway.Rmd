@@ -4,10 +4,13 @@ The following sections provide an overview of Norway’s statistical activities 
 
 
 ``` {r map, echo = F, message = F, fig.cap = "Country-specific support for data and statistics by Norway (2018-2022)"}
-library(highcharter)
-library(maps)
-library(dplyr)
+
 source("code/00. boot.R")
+conflicted::conflict_prefer("group_rows", "kableExtra", "dplyr")
+conflicted::conflict_prefer("filter","dplyr")
+options(knitr.kable.NA = '')
+
+options(kableExtra.html.bsTable = T)
 
 df_map <- read_rds("Data/intermediate/80.3 temp Norway map.rds")
 hcmap(
@@ -30,12 +33,6 @@ hcmap(
 In the last 3 years, 10 countries received more than $ 300K from Norway for data and statistics. Norway is also among the top six donors in all of them. Norway should consider to collaborate with other top 5 donors in these countries. 
 
 ``` {r other-donors, echo = FALSE, message = F}
-library(kableExtra)
-conflicted::conflict_prefer("group_rows", "kableExtra", "dplyr")
-conflicted::conflict_prefer("filter","dplyr")
-options(knitr.kable.NA = '')
-source("code/00. boot.R")
-options(kableExtra.html.bsTable = T)
 
 # source("code/01. Norway_factsheet.R", echo = F, print.eval = F)
 df_coordination_matrix <- read_rds("Data/intermediate/80.5 coordination matrix.rds")
@@ -62,6 +59,8 @@ df_coordination_matrix %>%
 
 
 ```
+
+
 
 Out of these top donors, the United States, United Kingdom, Sweden, and Canada are the most active bilateral donors in Norway's top then recipients. A few lessons learned from their statistical support include:
 
@@ -111,8 +110,6 @@ kbl(df_overlap_final_long_print, align = "c",
 # Key Projects by Donors in Norway’s Top Ten Recipient Countries 
 
 In the ten countries which receive significant amount of support from Norway, programme managers should also consider other large programmes on data and statistics are listed below:
-
-
 
 ``` {r projectlist, echo = FALSE, message = F}
 df_project_list <- read_rds("data/intermediate/80.4 project list.rds")

@@ -31,6 +31,12 @@ lapply(packages[!(packages %in% installed.packages())], install.packages)
 lapply(packages, library, character.only = TRUE)
 rm(packages)
 
+# added for Norway factsheet
+library(highcharter)
+library(maps)
+library(dplyr)
+library(kableExtra)
+
 # Set wd
 setwd(getwd())
 # extremely important for mac os:
