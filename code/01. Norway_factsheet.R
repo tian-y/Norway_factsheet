@@ -160,5 +160,19 @@ df_project_list <- df_crs %>%
 # 
 # 
 
+
 saveRDS(df_project_list , file = "data/intermediate/80.4 project list.rds")
 saveRDS(df_coordination_matrix, file = "data/intermediate/80.5 coordination matrix.rds")
+
+
+df_map <- df_crs %>% 
+  filter(ch_name == "Norway", disbursementdate > 2017) %>% 
+  group_by(isocode) %>% 
+  summarise(disbursement = sum(usd_disbursement_defl, na.rm = T)) %>% 
+  mutate(recipient = countrycode(isocode, "iso3c" ,"country.name"))  %>% 
+  as.data.frame %>% 
+  filter(!is.na(isocode))  %>% 
+  rename("iso-a3" = isocode) %>% 
+  filter(disbursement != 0)
+
+saveRDS(df_map, file ="data/intermediate/80.3 temp Norway map.rds")

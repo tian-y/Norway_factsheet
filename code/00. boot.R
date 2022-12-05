@@ -36,6 +36,8 @@ library(highcharter)
 library(maps)
 library(dplyr)
 library(kableExtra)
+library(formattable)
+
 
 # Set wd
 setwd(getwd())
