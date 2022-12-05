@@ -6,3 +6,8 @@ key-projects-by-donors-in-norways-top-ten-recipient-countries
 tab:chunk-label
 tab:chunk-label3
 tab:chunk-label2
+distribution-of-sth
+fig:map
+tab:other-donors
+tab:significant-overlaps
+tab:projectlist
